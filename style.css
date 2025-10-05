@@ -1,0 +1,154 @@
+body {
+  background-color: #faf8f7;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#start-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #ffeaea, #fff9f9);
+}
+
+#start-screen h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  color: #b84c65;
+}
+
+#start-screen p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+#start-btn {
+  font-size: 18px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  background: #b84c65;
+  color: white;
+  cursor: pointer;
+}
+
+#start-btn:hover {
+  background: #9c3f57;
+}
+
+header {
+  padding: 40px 20px 10px;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  color: #b84c65;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+section.memory {
+  margin: 50px auto;
+  width: 90%;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.photo-container {
+  position: relative;
+}
+
+.photo-container img,
+video {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.next-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #b84c65;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 28px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+
+.next-btn:hover {
+  background: #9c3f57;
+}
+
+.goto-page a {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 12px 20px;
+  background: #b84c65;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.goto-page a:hover {
+  background: #9c3f57;
+}
+
+/* Romantik yazı sayfas stili */
+.romantic-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 20px;
+}
+
+.romantic-text h1 {
+  font-size: 3em;
+  color: #d86b6b;
+  margin-bottom: 20px;
+}
+
+.romantic-text p {
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 30px;
+}
+
+.romantic-text a {
+  padding: 12px 20px;
+  background: #b84c65;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.romantic-text a:hover {
+  background: #9c3f57;
+}
+
+/* Müzik butonu */
+.music-control {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 28px;
+  cursor: pointer;
+}
